@@ -1,6 +1,6 @@
 'use client';
 
-import { useUser } from 'web-app/store/user';
+import { useUser } from '@web-app/store/user';
 
 export const Form = () => {
   const { user } = useUser();

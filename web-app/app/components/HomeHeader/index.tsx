@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Logo } from '../Logo';
 import { Navbar } from '../Navbar';
-import { PATHS } from 'web-app/app/paths';
+import { PATHS } from '@web-app/app/paths';
 import React from 'react';
 
 export const HomeHeader = () => {

@@ -1,7 +1,7 @@
 'use client';
 
-import { Button } from 'web-app/app/components/Button';
-import ViewRecipe from 'web-app/app/components/ViewRecipe';
+import { Button } from '@web-app/app/components/Button';
+import ViewRecipe from '@web-app/app/components/ViewRecipe';
 import { useForm } from 'react-hook-form';
 import useRecipeGenerator from '../hooks/use-generate-recipe';
 import { useRouter } from 'next/navigation';

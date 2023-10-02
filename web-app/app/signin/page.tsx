@@ -4,7 +4,7 @@ import { Button } from '../components/Button';
 import Link from 'next/link';
 import { Logo } from '../components/Logo';
 import { PATHS } from '../paths';
-import { supabaseClient } from 'web-app/services/client';
+import { supabaseClient } from '../../services/client';
 import { useForm } from 'react-hook-form';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';

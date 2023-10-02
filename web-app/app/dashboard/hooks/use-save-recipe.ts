@@ -1,5 +1,5 @@
-import { Recipe } from 'web-app/app/types';
-import { supabaseClient } from 'web-app/services/client';
+import { Recipe } from '@web-app/app/types';
+import { supabaseClient } from '@web-app/services/client';
 import { useState } from 'react';
 
 interface SaveRecipeHook {

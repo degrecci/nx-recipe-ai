@@ -1,12 +1,12 @@
 import React, { Suspense } from 'react';
 
 import { Button } from '../components/Button';
-import { Database } from 'web-app/lib/supabase';
+import { Database } from '@web-app/lib/supabase';
 import Link from 'next/link';
 import Loading from './loading';
 import RecipesList from './components/List';
 import { cookies } from 'next/headers';
-import { supabaseServer } from 'web-app/services/server';
+import { supabaseServer } from '@web-app/services/server';
 
 type Recipe = Database['public']['Tables']['recipes']['Row'];
 

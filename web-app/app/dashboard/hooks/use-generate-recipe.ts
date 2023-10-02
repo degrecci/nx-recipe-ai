@@ -1,4 +1,4 @@
-import { Recipe } from 'web-app/app/types';
+import { Recipe } from '@web-app/app/types';
 import { useState } from 'react';
 import { useTrackAttempts } from './use-track-attempts';
 

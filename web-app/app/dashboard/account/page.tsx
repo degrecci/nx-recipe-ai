@@ -1,6 +1,6 @@
 import { Form } from './Form';
 import { cookies } from 'next/headers';
-import { supabaseServer } from 'web-app/services/server';
+import { supabaseServer } from '@web-app/services/server';
 
 export const revalidate = 0;
 

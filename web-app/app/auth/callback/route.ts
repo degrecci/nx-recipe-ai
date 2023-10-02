@@ -1,4 +1,4 @@
-import { Database } from 'web-app/lib/supabase';
+import { Database } from '@web-app/lib/supabase';
 import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';

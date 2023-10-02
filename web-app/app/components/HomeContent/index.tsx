@@ -1,6 +1,6 @@
 import { Button } from '../Button';
 import Link from 'next/link';
-import { PATHS } from 'web-app/app/paths';
+import { PATHS } from '@web-app/app/paths';
 import React from 'react';
 
 export const HomeContent = () => {

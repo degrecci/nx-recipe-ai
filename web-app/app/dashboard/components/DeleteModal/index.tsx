@@ -2,11 +2,11 @@
 
 import { Dispatch, SetStateAction } from 'react';
 
-import { Button } from 'web-app/app/components/Button';
+import { Button } from '@web-app/app/components/Button';
 import { DeleteModalState } from '../List';
-import { Modal } from 'web-app/app/components/Modal';
-import { TrashIcon } from 'web-app/assets/icons/trash';
-import { supabaseClient } from 'web-app/services/client';
+import { Modal } from '@web-app/app/components/Modal';
+import { TrashIcon } from '@web-app/assets/icons/trash';
+import { supabaseClient } from '@web-app/services/client';
 
 type DeleteModalProps = {
   modal: DeleteModalState;

@@ -1,6 +1,6 @@
-import { Json } from 'web-app/lib/supabase';
+import { Json } from '@web-app/lib/supabase';
 import React from 'react';
-import { Recipe } from 'web-app/app/types';
+import { Recipe } from '@web-app/app/types';
 
 type Props = {
   recipe: Recipe;

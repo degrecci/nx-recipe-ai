@@ -1,5 +1,5 @@
-import { Button } from 'web-app/app/components/Button';
-import { CheckMark } from 'web-app/assets/icons/check-mark';
+import { Button } from '@web-app/app/components/Button';
+import { CheckMark } from '@web-app/assets/icons/check-mark';
 import Link from 'next/link';
 
 export default function Submitted() {

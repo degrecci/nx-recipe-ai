@@ -1,6 +1,6 @@
 'use client';
 
-import { UserProvider } from 'web-app/store/user';
+import { UserProvider } from '@web-app/store/user';
 
 if (process.env.NEXT_PUBLIC_API_MOCKING === 'enabled') {
   require('../mocks');

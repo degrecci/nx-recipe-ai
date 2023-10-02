@@ -1,6 +1,6 @@
-import { Button } from 'web-app/app/components/Button';
+import { Button } from '@web-app/app/components/Button';
 import React from 'react';
-import { supabaseClient } from 'web-app/services/client';
+import { supabaseClient } from '@web-app/services/client';
 import { useForm } from 'react-hook-form';
 import { useRouter } from 'next/navigation';
 import { z } from 'zod';

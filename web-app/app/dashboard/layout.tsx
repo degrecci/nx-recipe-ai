@@ -1,9 +1,9 @@
-import { ExitIcon } from 'web-app/assets/icons/exit-arrow';
+import { ExitIcon } from '@web-app/assets/icons/exit-arrow';
 import Link from 'next/link';
 import { Navbar } from '../components/Navbar';
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
-import { supabaseServer } from 'web-app/services/server';
+import { supabaseServer } from '@web-app/services/server';
 
 export default async function DashboardLayout({
   children,

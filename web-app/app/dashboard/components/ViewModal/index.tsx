@@ -1,7 +1,7 @@
-import { Button } from 'web-app/app/components/Button';
-import { Modal } from 'web-app/app/components/Modal';
+import { Button } from '@web-app/app/components/Button';
+import { Modal } from '@web-app/app/components/Modal';
 import { ViewModalState } from '../List';
-import ViewRecipe from 'web-app/app/components/ViewRecipe';
+import ViewRecipe from '@web-app/app/components/ViewRecipe';
 
 type ViewRecipesModalProps = {
   modal: ViewModalState;

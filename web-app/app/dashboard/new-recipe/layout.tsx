@@ -1,4 +1,4 @@
-import Breadcrumb from 'web-app/app/components/Breadcrumb';
+import Breadcrumb from '@web-app/app/components/Breadcrumb';
 
 export default async function NewRecipeLayout({
   children,

@@ -3,11 +3,11 @@
 import { useEffect, useState } from 'react';
 
 import { DeleteRecipesModal } from '../DeleteModal';
-import { EyeIcon } from 'web-app/assets/icons/eye';
-import { Recipe } from 'web-app/app/types';
-import { TrashIcon } from 'web-app/assets/icons/trash';
+import { EyeIcon } from '@web-app/assets/icons/eye';
+import { Recipe } from '@web-app/app/types';
+import { TrashIcon } from '@web-app/assets/icons/trash';
 import { ViewRecipesModal } from '../ViewModal';
-import { supabaseClient } from 'web-app/services/client';
+import { supabaseClient } from '@web-app/services/client';
 
 type ListProps = {
   serverRecipes: Recipe[];

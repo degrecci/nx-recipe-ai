@@ -1,4 +1,4 @@
-import { supabaseClient } from 'web-app/services/client';
+import { supabaseClient } from '@web-app/services/client';
 
 type TrackAttemptResponse = {
   data?: any;
